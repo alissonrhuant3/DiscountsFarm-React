@@ -1,0 +1,69 @@
+[
+    {
+        "titulo": "Battlefield 1",
+        "subTitulo": "Revolution",
+        "promocao": "TEMPO LIMITADO!",
+        "data": "25/02/2024",
+        "link": "https://pt.wikipedia.org/wiki/Ficheiro:Battlefield_1_capa.png",
+        "image": "https://upload.wikimedia.org/wikipedia/pt/7/75/Battlefield_1_capa.png?20200615180503",
+        "preco": 100,
+        "precoAnterior": 225,
+        "porcentagemDesconto": 22,
+        "id": 1,
+        "category": {
+            "id": 1,
+            "label": "Singleplayer"
+        }
+    },
+    {
+        "titulo": "Battlefield 2",
+        "subTitulo": "Revolution",
+        "promocao": "TEMPO LIMITADO!",
+        "data": "25/02/2024",
+        "link": "https://pt.wikipedia.org/wiki/Ficheiro:Battlefield_1_capa.png",
+        "image": "https://upload.wikimedia.org/wikipedia/pt/7/75/Battlefield_1_capa.png?20200615180503",
+        "preco": 195,
+        "precoAnterior": 225,
+        "porcentagemDesconto": 22,
+        "id": 2,
+        "category": {
+            "id": 2,
+            "label": "Multiplayer"
+        }
+        
+    },
+    {
+        "titulo": "Battlefield 3",
+        "subTitulo": "Revolution",
+        "promocao": "TEMPO LIMITADO!",
+        "data": "25/02/2024",
+        "link": "https://pt.wikipedia.org/wiki/Ficheiro:Battlefield_1_capa.png",
+        "image": "https://upload.wikimedia.org/wikipedia/pt/7/75/Battlefield_1_capa.png?20200615180503",
+        "preco": 195,
+        "precoAnterior": 225,
+        "porcentagemDesconto": 22,
+        "categoria": "Cooperativo",
+        "id": 3,
+        "category": {
+            "id": 3,
+            "label": "Cooperativo"
+        }
+    },
+    {
+        "titulo": "Battlefield 4",
+        "subTitulo": "Revolution",
+        "promocao": "TEMPO LIMITADO!",
+        "data": "25/02/2024",
+        "link": "https://pt.wikipedia.org/wiki/Ficheiro:Battlefield_1_capa.png",
+        "image": "https://upload.wikimedia.org/wikipedia/pt/7/75/Battlefield_1_capa.png?20200615180503",
+        "preco": 195,
+        "precoAnterior": 225,
+        "porcentagemDesconto": 22,
+        "categoria": "Fps",
+        "id": 4,
+        "category": {
+            "id": 4,
+            "label": "Fps"
+        }
+    }
+]

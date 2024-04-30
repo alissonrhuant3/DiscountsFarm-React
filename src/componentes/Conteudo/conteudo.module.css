@@ -1,0 +1,43 @@
+.input {
+    display: flex;
+    justify-content: end;
+}
+
+.secao {
+    max-width: 1500px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #551e1eb2;
+    margin-top: 1%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.secao .secao__titulo {
+    background-color: #770000;
+    width: 100%;
+    border-radius: 1rem;
+    height: 55px;
+    margin-bottom: 3%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.secao__titulo h2 {
+    color: white;
+    font-size: 38px;
+}
+
+.secao__conteudo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 6.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}

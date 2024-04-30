@@ -1,0 +1,60 @@
+.inserirjogo {
+    height: 500px;
+    text-align: center;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 1500px;
+    height: 90%;
+    margin: 0 auto;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap: 25px;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    background-color: rgba(135, 14, 14, 0.176);
+}
+
+.formulario__input {
+    width: 100%;
+    padding: 20px;
+}
+
+.formulario__input label {
+    background-color: rgba(0, 0, 255, 0.556);
+    color: white;
+    margin: 7px;
+}
+
+.formulario__input > input {
+    border-radius: 6px;
+    margin: 5px;
+    padding: 8px;;
+}
+
+.formulario__botao {
+    background-color: gray;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 4px;
+    margin: 8px;
+    margin-top: 3rem;
+    margin-left: 20px;
+}
+
+@media (max-width: 778px) {
+    .formulario__input {
+        padding: 7px;
+    }
+}
+
+@media (max-width: 778px) {
+    .formulario__input {
+        padding: 0;
+        width: 100px;
+    }
+}

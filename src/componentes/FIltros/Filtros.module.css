@@ -1,0 +1,39 @@
+.botoes {
+    display: flex;
+    justify-content: center;
+    column-gap: 2svw;
+}
+
+.botoes__item {
+    text-align: center;
+    background-color: rgba(105, 102, 102, 0.603);
+    color: white;
+    width: 11rem;
+    height: 35px;
+    padding-top: 4px;
+    box-shadow: 1px 1px 7px black;
+    border-radius: 4%;
+    transition: 0.15s;
+}
+
+.botoes__item--active {
+    background-color: rgba(0, 0, 0, 0.998);
+}
+
+.botoes__item a {
+    font-size: 18px;
+}
+
+.botoes__item:hover {
+    transform: scale(1.09);
+}
+
+@media (max-width: 368px) {
+    .botoes__item {
+        width: 9rem;
+    }
+
+    .botoes__item a {
+        font-size: 14.3px;
+    }
+}

@@ -1,0 +1,28 @@
+.container {
+    align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.container__voltar {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.container__voltar button {
+    background-color: #990000;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}

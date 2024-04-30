@@ -1,0 +1,100 @@
+.paiConteudo {
+    height: 460px;
+    display: flex;
+    margin-bottom: 17px;
+    gap: 5px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.paiConteudo__card {
+    transition: 0.15s;
+    background-color: rgb(168, 14, 3);
+    text-align: center;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paiConteudo__card:hover {
+    transform: scale(1.04);
+}
+
+.paiConteudo__card .paiConteudo__card_image img {
+    width: 220px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.paiConteudo__card .conteudo_titulo {
+    color: white;
+    font-weight: bold;
+}
+
+.paiConteudo__card .conteudo_subTitulo {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.paiConteudo__card .conteudo_promocao {
+    color: white;
+    font-weight: bold;
+}
+
+.paiConteudo__card .conteudo_data {
+    margin-top: 10px;
+    color: white;
+    padding-bottom: 3px;
+}
+
+.conteudo_precos {
+    display: flex;
+}
+
+.conteudo_precos .desconto {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(92, 87, 87);
+    width: auto;
+    height: 35px;
+    margin-bottom: 20px;
+}
+.desconto h5 {
+    font-size: 25px;
+    margin-right: 3px;
+    padding: 1px;
+    color: rgb(255, 254, 254);
+}
+
+.conteudo_precos .precoOriginal {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: auto;
+    height: 35px;
+    margin-left: -1.3px;
+    padding-left: 8px;
+}
+.precoOriginal #precoAnterior {
+    text-decoration: line-through;
+    color: rgb(255, 0, 0);
+    font-size: 10px;
+}
+.precoOriginal #porcentagemDesconto {
+    font-size: 15px;
+}
+
+.paiConteudo__card_administrador {
+    display: flex;
+    gap: 20px;
+
+}
+
+.paiConteudo__card_administrador button {
+    background-color: rgba(94, 78, 78, 0.57);
+    color: white;
+    width: 8rem;
+    height: 30px;
+}

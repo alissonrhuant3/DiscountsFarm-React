@@ -1,0 +1,18 @@
+[
+    {
+      "label": "Singleplayer",
+      "id": 1
+    },
+    {
+      "label": "Multiplayer",
+      "id": 2
+    },
+    {
+      "label": "Cooperativo",
+      "id": 3
+    },
+    {
+      "label": "FPS",
+      "id": 4
+    }
+  ]

@@ -1,0 +1,15 @@
+.swiper {
+    max-width: 1500px;
+    border-radius: 1.5rem;
+  }
+  
+  .slide-item {
+    width: 100%;
+    height: 25vw;
+  }
+  
+  @media (max-width: 368px) {
+    .slide-item {
+      height: 35vw;
+    }
+  }
